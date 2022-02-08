@@ -1,0 +1,105 @@
+
+@media only screen and (max-width: 576px) {
+    br {content: "";}
+    br:after {content: " ";}
+    html {font-size: 14px;}
+    .subheading {font-size: 1.25rem!important;}
+    .btn-c {font-size: 1.5rem!important;}
+
+
+    /* Section 1 */
+    .s-1 {
+        background: url("../images/Hero-2.jpg") center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }  
+
+    /* Section 2 */
+    .s-2 {background-position: left -170px top, right -170px bottom;}
+    .cheering-lady {margin-top:-75px;}
+
+    /* Section 3 */
+    .countdown ul {padding-left: 0;}
+    .countdown li {width: 60px;height: 80px;background: #3F175B; margin-right: 2px;}
+    .countdown li span {display: block;font-size: 34px;font-weight: 700;text-align: center;}
+    .s-3 {text-align: center;}
+    .cheering-lady {margin-top:-75px;max-width: 100%;height: auto;}
+
+    /* Section 4 */
+    .s-4 {padding-top: 50px; padding-bottom: 50px;}
+
+    /* Section 5 */
+    .s-5 {margin-top: 50px!important;margin-bottom: 50px!important;}
+
+    /* Section 6 */
+    .s-6:before {
+        content: "";
+        position: absolute;
+        left: 0; right: 0;
+        top: 0; bottom: 0;
+        background: rgba(56,27,83,.7);
+        z-index: -1;
+      }
+    .s-6 {background-position: right 300px top, left;}
+
+    /* Section 7 */
+    .s-7 {background-position: right -170px top, left -170px bottom; margin-bottom: 50px!important;}
+}
+
+
+@media (min-width: 576px) { 
+    /* Section 1 */
+    .s-1 {
+        background: url("../images/Hero-2.jpg") center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }  
+    /* Section 3 */
+    .countdown ul {padding-left: 0;}
+    .countdown li {width: 75px;height: 80px;background: #3F175B; margin-right: 5px;}
+    .countdown li span {display: block;font-size: 36px;font-weight: 700;text-align: center;}
+    .s-3 {text-align: center;}
+    .cheering-lady {margin-top:-75px;}
+ }
+
+@media (min-width: 768px) { 
+
+    br {content: "";}
+    br:after {content: " ";}
+    html {font-size: 14px;}
+    .subheading {font-size: 1.25rem!important;}
+    .btn-c {font-size: 1.5rem!important;}
+    /* Section 1 */
+    .s-1 {
+        height: 60vh!important;
+        min-height: 800px;
+        background: url("../images/Hero-1.jpg") center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }  
+    /* Section 3 */
+    .countdown ul {padding-left: 0;}
+    .countdown li {width: 75px;height: 80px;background: #3F175B; margin-right: 5px;}
+    .countdown li span {display: block;font-size: 36px;font-weight: 700;text-align: center;}
+    .s-3 {text-align: left; margin-top: 5vh;}
+    .cheering-lady {margin-top:-75px;}
+
+    /* Section 7 */
+    .s-7 {margin-bottom: 50px!important;}
+ }
+    /* Section 4 */
+    .s-4 {min-height: 800px;}
+
+
+@media (min-width: 992px) {   
+    /* Section 3 */
+    .s-3 {margin-top: 0;}
+}
+
+
+@media (min-width: 1200px) { 
+
+ }
+
+
+@media (min-width: 1400px) {  }

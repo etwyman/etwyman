@@ -1,0 +1,209 @@
+/** Font Styles **/
+h1,h2,h3,h4,h5,h6 {font-family: bely-display, sans-serif;font-style: normal;font-weight: 400;}
+p {font-family: Open Sans; font-style: normal; font-weight: 400; color: #63666A;}
+html {font-size: 16px;}
+.f-white {color: #ffffff;}
+.f-gold {color: #D8B452}
+p a {color: #D8B452}
+p a:hover {color: #e6b01b}
+
+.highlight {
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='1px' height='1px' viewBox='0 0 1 1' preserveAspectRatio='none'%3E%3Crect x='0' y='0' width='1' height='1' fill='gold' /%3E%3C/svg%3E") no-repeat 100% 100%;
+    background-size: 100% 50%;
+}
+.highlight-dark {
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='1px' height='1px' viewBox='0 0 1 1' preserveAspectRatio='none'%3E%3Crect x='0' y='0' width='1' height='1' fill='black' /%3E%3C/svg%3E") no-repeat 100% 100%;
+    background-size: 100% 50%;
+    color: #D7B253;
+}
+
+/** MISC **/
+
+.g-logo {
+    margin-top: -50px;
+    z-index: 10;
+}
+
+.spacer-dark {
+    max-width: 75px;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgba(99, 102, 106, 0.5);
+    margin: 1em 0;
+    padding: 0;
+}
+
+.spacer {
+    max-width: 75px;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #6E5D7E;
+    margin: 1em 0;
+    padding: 0;
+}
+.mt-10 {margin-top: 5rem;}
+.mb-10 {margin-bottom: 5rem;}
+.align-right {margin-right: 0; margin-left: auto;}
+.test-name{font-weight:700; color:#D7B353; margin-bottom: 0;}
+.test-title{font-weight: 600;color:#9F9A8C; font-size: 0.85rem;}
+
+/** c-header **/
+.c-header {max-height: 94px;background: #2D1743; border:none!important;}
+
+/** Hero **/
+.s-1 {
+    background: rgba(88, 45, 131, 0.2);
+    min-height: 600px;
+    position: relative;
+}
+.s-1 h1 {text-transform: uppercase;}
+.subheading {text-transform: uppercase; font-weight: 700;}
+
+/** Rise Up Section **/
+.s-2 {margin-bottom: 5rem;}
+.s-2 {
+    min-height: 550px;
+    position: relative;
+    background-image: url("../images/arrows-2.png"), url("../images/arrows-1.png");
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+}
+.s-2 h2 {color:#451A64;}
+.s-2 p {font-weight: 400;}
+.s-2 .highlight {font-weight:600}
+.subheading-2 {color:#57B6B2; font-weight: 700; text-transform: uppercase;}
+
+/** Double Your Dollars Section **/
+.s-3 {background: url("../images/arrows-3.png")#593C77; center left;position: relative;background-repeat: no-repeat;background-size: auto; min-height: 415px;}
+.countdown ul {padding-left: 0;}
+.countdown li {display: inline-block;list-style-type: none; width: 96px;height: 88px;background: #3F175B;text-transform: uppercase;text-align: center;margin-right: 15px;}
+.countdown li span {display: block;font-size: 41px;font-weight: 700;text-align: center;}
+.timer-accent {color: #72CAC6;font-size: 0.75rem!important;}
+.subheading-3 {text-transform: uppercase; font-weight: 600; color:#D7B353; margin-bottom: 0px;}
+
+/** Nurses Section **/
+.s-4 {
+    background: rgba(88, 45, 131, 0.2);
+    min-height: 550px;
+    position: relative;
+    background: url("../images/nurses.jpg") center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s-4 h2 {font-size: 3.5rem;}
+
+/** Eternal Difference Section **/
+.s-5 {margin-bottom: 10rem!important;margin-top: 10rem!important;}
+.s-5 {min-height: 550px; position: relative;}
+.s-5 h2 {color:#451A64;}
+.s-5 h3 {font-family: Open Sans; text-transform: uppercase; font-style: normal; font-size: 1.5rem; font-weight: 700; color:#582D83;}
+.s-5 p {font-weight: 400;}
+.s-5 .lead {color: #57B6B2; font-weight: 700; font-size: 1.75rem; text-transform: uppercase; margin-bottom: 0;}
+.s-5 .col-md-3 {border-right: 1px solid rgba(99, 102, 106, 0.1);}
+.s-5 .col-md-3:last-child {border-right: none;}
+
+/** Invest in Future Educators Section **/
+.s-6 {
+    background: #41135C;
+    min-height: 550px;
+    position: relative;
+    background-image: url("../images/arrows-4.png"), url("../images/teacher.jpg");
+    background-position: right, left;
+    background-repeat: no-repeat;
+    background-size: auto, auto;
+    z-index: -2;
+}
+
+/** Rise Up Section **/
+.s-7 {margin-bottom: 15rem!important;}
+.s-7 {
+    min-height: 550px;
+    position: relative;
+    background-image: url("../images/arrows-5.png"), url("../images/arrows-6.png");
+    background-position: left  25px top, right 25px bottom;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+.s-7 h2 {color:#451A64;}
+.s-7 h3 {font-family: Open Sans; font-style: normal; font-size: 1.5rem; font-weight: 600; color:#424447}
+.s-7 p {font-weight: 400;}
+.s-7 .highlight {font-weight:600}
+
+ul .arrows {
+    list-style-image: url("../images/arrow-bullet.svg");
+    margin-top: -15px;
+}
+ul .no_bullet {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+.s-7 ul li {font-weight: 400; padding: 15px 0px;}
+.s-7 strong {font-weight: 600;}
+
+
+/** CTA Area **/
+.s-8 {
+    background: rgba(88, 45, 131, 0.2);
+    position: relative;
+    background: url("../images/purple-background.jpg") center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s-8 h2 .f-gold {text-transform: uppercase;}
+.purple-bg {
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/** Buttons Galore **/
+.btn-c {background: #FFD24F; color: #371E50; padding:10px;text-transform: uppercase;font-weight:700; font-size: 1.25rem; min-width: 285px; border-radius: 0; padding: 0.75rem 2.75rem;}
+
+
+/** Fancy Separators */
+.b-wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.b-wave svg {
+  position: relative;
+  display: block;
+  width: calc(145% + 1.3px);
+  height: 70px;
+}
+
+.b-wave .shape-fill {
+  fill: #ffffff;
+}
+
+.t-wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.t-wave svg {
+  position: relative;
+  display: block;
+  width: calc(145% + 1.3px);
+  height: 70px;
+}
+
+.t-wave .shape-fill {
+  fill: #FFFFFF;
+}
